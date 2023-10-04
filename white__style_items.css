@@ -1,0 +1,83 @@
+/* START mouseOver add text element  */
+.w__moat_item {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+.w__moat_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.w__moat_image {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.w__moat_sub-list {
+    color: aliceblue;
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.w__moat_title {
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 20px;
+    font-size: 26px;
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    font-family: Open Sans;
+}
+
+.w__moat_sub-item {
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: Open Sans;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    list-style: none;
+    transform: translateX(-110%);
+}
+
+.w__moat_active {
+    transform: translateX(0%);
+}
+
+@media screen and (max-width:864px) {
+
+}
+
+@media screen and (max-width:460px) {
+
+    .w__moat_title {
+        font-size: 18px;
+        left: 0;
+        top: 0;
+    }
+
+    .w__moat_sub-item {
+        font-size: 14px;
+        padding: 2px;
+        margin-bottom: 3px;
+    }
+
+    .w__moat_sub-list {
+        left: 0;
+        top: 35px;
+    }
+}
+
+/* END mouseOver add text element */
