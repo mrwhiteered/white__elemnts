@@ -35,7 +35,20 @@ HTML
             </ul>
         </li>
     </ul>
-    
+## 2. Fade-in & Fade-up
+_Elements appearing on the side or bottom when scrolling from left/bottom/right/left_
+- [ ] Add CSS --> `<link rel="stylesheet" href="https://mrwhiteered.github.io/white__elemnts/white__style_items.css">`
+- [ ] Add JS -->  `<script src="https://mrwhiteered.github.io/white__elemnts/white__scripts_file.js"></script>`
+- [ ] To make the element appear on the right you need to add _.Wfade-in_
+- [ ] To make the element appear below, you need to add _.Wfade-up_
+- [ ] * if you need the element to appear on the left or top just change the styles to negative values
+```html
+.Wfade-up {
+    transform: translateY(150px);
+}
+.Wfade-in {
+    transform: translateX(-200px);
+}
 
 
 
